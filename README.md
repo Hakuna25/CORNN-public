@@ -13,7 +13,7 @@ The data are publicly available here: https://drive.google.com/drive/folders/1PR
    
    Run the script with:
    
-  ```bash Miniforge3-$(uname)-$(uname -m).sh```
+   ```bash Miniforge3-$(uname)-$(uname -m).sh```
 3. Environment Create
-```mamba env create -n cornn -f env.xml
+   ```mamba env create -n cornn -f env.xml
    mamba activate cornn```

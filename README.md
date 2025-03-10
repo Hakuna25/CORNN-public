@@ -16,8 +16,9 @@ The data are publicly available here: https://drive.google.com/drive/folders/1PR
    ```bash Miniforge3-$(uname)-$(uname -m).sh```
    
 3. Environment Create
-   ```mamba env create -n cornn -f env.xml
-      mamba activate cornn
+   ```
+   mamba env create -n cornn -f env.xml
+   mamba activate cornn
    ```
 
 Set `weight_only` to False in torch.load() if you use Pytorch >= 2.6

@@ -21,5 +21,5 @@ The data are publicly available here: https://drive.google.com/drive/folders/1PR
    mamba activate cornn
    ```
 
-Set `weight_only` to False in torch.load() if you use Pytorch >= 2.6
+Set `weight_only` to **False** in `torch.load()` if you use Pytorch >= 2.6
 

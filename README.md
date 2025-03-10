@@ -17,8 +17,8 @@ The data are publicly available here: https://drive.google.com/drive/folders/1PR
    
 3. Environment Create
    ```mamba env create -n cornn -f env.xml
-   
-      mamba activate cornn```
+      mamba activate cornn
+   ```
 
 Set `weight_only` to False in torch.load() if you use Pytorch >= 2.6
 
